@@ -3,6 +3,7 @@ package com.dengshen.blog.web;
 import com.dengshen.blog.Actions.ActionResult;
 import com.dengshen.blog.dao.UserDAO;
 import com.dengshen.blog.pojo.User;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,6 +15,7 @@ import javax.validation.constraints.NotNull;
 
 @RestController
 @CrossOrigin("*.**")
+@Api(tags = "用户")
 public class UserController {
 
     @Autowired

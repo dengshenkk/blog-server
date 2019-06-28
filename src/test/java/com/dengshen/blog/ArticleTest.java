@@ -12,11 +12,11 @@ public class ArticleTest {
     @Autowired
     ArticleDAO articleDAO;
 
-    @Test
-    public void addArticleTest() {
-        Article article = new Article();
-        article.setTitle("title" + 1);
-        article.setContent("content" + 1);
-        article.toString();
-    }
+//    @Test
+//    public void addArticleTest() {
+//        Article article = new Article();
+//        article.setTitle("title" + 1);
+//        article.setContent("content" + 1);
+//        articleDAO.save(article);
+//    }
 }
