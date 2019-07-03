@@ -14,7 +14,7 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 
 @RestController
-@CrossOrigin("*.**")
+@CrossOrigin(value = "*")
 @Api(tags = "用户")
 public class UserController {
 
